@@ -1,0 +1,44 @@
+<h1>BURGER LAND!</h1>
+
+<img src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSqi-QZVAc4WzJOZ9COovTUt7zJE24GfT3nX87hgNw5KBw5ELSJ'>
+
+{{!-- List of new burgers --}}
+<div id='new'>
+    <h2>Your Burgers:</h2>
+    <ul>
+    {{#each burgers}}
+        {{#unless devoured}}
+        {{> burgers/burger-block devoured=false}}
+        {{/unless}}
+    {{/each}}
+    </ul>
+</div>
+
+
+{{!-- Form to create and add new burgers --}}
+<div id='form'>
+    <h2>Add a Burger</h2>
+    <form class="create-form">
+
+    <div class="form-group">
+        <label for="new-burger">Burger Name:</label>
+        <br>
+        <input type="text" id="burger" name="burger">
+    </div>
+    <br>
+    <button type="submit">Add Your Burger!</button>
+    </form>
+</div>
+
+
+{{!-- List of burgers eaten --}} 
+<div id='eaten'>
+    <h2>Burgers You've Devoured:</h2>
+    <ul>
+    {{#each burgers}}
+        {{#if devoured}}
+        {{> burgers/burger-block devoured=true}}
+        {{/if}}
+    {{/each}}
+    </ul>
+</div>
