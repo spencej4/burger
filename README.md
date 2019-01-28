@@ -1,12 +1,9 @@
 # Burger App
 
 ## Description:
-
-# Node Express Handlebars
+This app creates a burger logger with MySQL, Node, Express, Handlebars and a custom ORM. It utilizes MVC design pattern; using Node and MySQL to query and route data in the app, and Handlebars to generate the HTML.
 
 ### Overview
-
-This app creates a burger logger with MySQL, Node, Express, Handlebars and a custom ORM. It utilizes MVC design pattern; using Node and MySQL to query and route data in the app, and Handlebars to generate the HTML.
 
 * Burger lets users input the names of burgers they'd like to eat.
 
