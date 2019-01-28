@@ -1,0 +1,40 @@
+{
+	"folders": [
+		{
+			"path": "controllers"
+		},
+		{
+			"path": "db"
+		},
+		{
+			"path": "models"
+		},
+		{
+			"path": "node_modules"
+		},
+		{
+			"path": "public"
+		},
+		{
+			"path": "public/assets"
+		},
+		{
+			"path": "public/assets/css"
+		},
+		{
+			"path": "config"
+		},
+		{
+			"path": "public/assets/js"
+		},
+		{
+			"path": "views"
+		},
+		{
+			"path": "views/layouts"
+		},
+		{
+			"path": "views/partials"
+		}
+	]
+}
