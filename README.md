@@ -13,6 +13,8 @@ This app creates a burger logger with MySQL, Node, Express, Handlebars and a cus
 
 * This app will store every burger in a database, whether devoured or not.
 
+* This app allows for user to destroy a burger from the database, using the 'Delete' button. 
+
 
 ### Link and repository:
 
